@@ -5,19 +5,18 @@ import java.util.Scanner;
 public class Exercise8 {
     public static void main(String[] args) {
 
-        int number = 0;
+        int sizeArray = 0;
         Scanner readValue = new Scanner(System.in);
         System.out.print("Ingrese el tamaño del array: ");
-        number = readValue.nextInt();
-
-        int[] array = new int[number];
-        for (int i = 0; i < array.length; i++) {
-            System.out.print("Ingrese el valor del elemento " + (i + 1) + ": ");
-            array[i] = readValue.nextInt();
-        }
+        sizeArray = readValue.nextInt();
         readValue.close();
 
-        System.out.println("El valor mayor del array es: " + getMayor(array));
+        int[] array = generateArrayRandom(sizeArray);
+        System.out.print("\nArray generado: {" );
+        for (int i = 0; i < array.length; i++) {
+            System.out.print( array[i] + (i==array.length-1 ? "}" : ","));
+        }
+        System.out.println("\nEl valor mayor del array es: " + getMayor(array));
         System.out.println("El valor mayor del array es: " + getMayor2(array));
 
     }
@@ -37,6 +36,14 @@ public class Exercise8 {
         }
         return mayor;
     }
-
+    private static int[] generateArrayRandom(int sizeArray) {
+        int[] array = new int[sizeArray];
+        int numberInit = 1;
+        int numberEnd = 200;
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (int) Math.floor(Math.random() * (numberEnd - numberInit + 1) + numberInit);
+        }
+        return array;
+    }
 
 }

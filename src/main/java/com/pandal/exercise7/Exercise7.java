@@ -11,8 +11,8 @@ public class Exercise7 {
         number = readValue.nextInt();
         readValue.close();
 
-        Factorial factorial = new Factorial( number);
-        System.out.println("El factorial de " + number + "! es: " + factorial.solveFactorial());
+        Factorial factorial = new Factorial();
+        System.out.println("El factorial de " + number + "! es: " + factorial.solveFactorial(number));
         System.out.println("El factorial de " + number + "! es: " + factorial.solveFactorialRecursive(number));
 
     }

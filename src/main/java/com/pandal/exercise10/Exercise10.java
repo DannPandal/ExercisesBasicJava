@@ -20,21 +20,30 @@ public class Exercise10 {
             count++;
             int number = readNumber(readValue);
             if (number == numberRandom) {
-                System.out.println("Felicidades, lograste adivinar el número!");
+                System.out.println("¡Felicidades! ¡Haz adivinado el número!");
                 System.out.printf("Tuviste %d intentos", count);
                 break;
             }
-            int diference = Math.abs(numberRandom - number);
-            if (diference > 60) {
-                System.out.print("Estas frio, ");
-            } else if (diference > 30) {
-                System.out.print("Estas tibio, ");
-            } else if (diference > 10) {
-                System.out.print("Estas caliente, ");
+//            int diference = Math.abs(numberRandom - number);
+//            if (diference > 60) {
+//                System.out.print("Estas frio, ");
+//            } else if (diference > 30) {
+//                System.out.print("Estas tibio, ");
+//            } else if (diference > 10) {
+//                System.out.print("Estas caliente, ");
+//            } else {
+//                System.out.print("Estas quemando, ");
+//            }
+
+            int diference = numberRandom - number;
+            if (diference >= 9){
+                System.out.print("Número demasiado bajo");
+            } else if (diference <= -9) {
+                System.out.print("Número demasiado alto");
             } else {
-                System.out.print("Estas quemando, ");
+                System.out.print("Estas cerca");
             }
-            System.out.println("Sigue intentando...");
+            System.out.println(", intenta nuevamente...");
         }
 
         readValue.close();

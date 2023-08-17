@@ -15,10 +15,11 @@ public class Exercise4 {
         readValue.close();
 
 
-        System.out.print("\n");
+        System.out.print("\nCon for:\n");
         // with function
         printNumberImpar(number);
 
+        System.out.print("\nCcon stream:\n");
         // with stream for
         IntStream.range(1, number).filter(n -> n % 2 != 0).forEach(System.out::println);
 

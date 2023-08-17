@@ -1,0 +1,67 @@
+[
+  {
+    "title": "El gran Gatsby",
+    "available": true,
+    "author": "F. Scott Fitzgerald"
+  },
+  {
+    "title": "Cien años de soledad",
+    "available": true,
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "title": "Don Quijote de la Mancha",
+    "available": true,
+    "author": "Miguel de Cervantes"
+  },
+  {
+    "title": "En busca del tiempo perdido",
+    "available": true,
+    "author": "Marcel Proust"
+  },
+  {
+    "title": "Matar a un ruiseñor",
+    "available": true,
+    "author": "Harper Lee"
+  },
+  {
+    "title": "Crimen y castigo",
+    "available": true,
+    "author": "Fiodor Dostoievski"
+  },
+  {
+    "title": "Ulises",
+    "available": true,
+    "author": "James Joyce"
+  },
+  {
+    "title": "Orgullo y prejuicio",
+    "available": true,
+    "author": "Jane Austen"
+  },
+  {
+    "title": "Drácula",
+    "available": true,
+    "author": "Bram Stoker"
+  },
+  {
+    "title": "Crónica de una muerte anunciada",
+    "available": true,
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "title": "Los miserables",
+    "available": true,
+    "author": "Victor Hugo"
+  },
+  {
+    "title": "El viejo y el mar",
+    "available": true,
+    "author": "Ernest Hemingway"
+  },
+  {
+    "title": "Cien años de soledad",
+    "available": true,
+    "author": "Gabriel García Márquez"
+  }
+]

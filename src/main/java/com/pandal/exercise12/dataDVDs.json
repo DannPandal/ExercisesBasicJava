@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "duration": 154,
+    "available": true
+  },
+  {
+    "title": "El Señor de los Anillos: La Comunidad del Anillo",
+    "director": "Peter Jackson",
+    "duration": 178,
+    "available": true
+  },
+  {
+    "title": "El Resplandor",
+    "director": "Stanley Kubrick",
+    "duration": 146,
+    "available": true
+  },
+  {
+    "title": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "duration": 142,
+    "available": true
+  },
+  {
+    "title": "Matrix",
+    "director": "Lana Wachowski",
+    "duration": 136,
+    "available": true
+  },
+  {
+    "title": "Eterno resplandor de una mente sin recuerdos",
+    "director": "Michel Gondry",
+    "duration": 108,
+    "available": true
+  },
+  {
+    "title": "Star Wars: Episodio IV - Una nueva esperanza",
+    "director": "George Lucas",
+    "duration": 121,
+    "available": true
+  },
+  {
+    "title": "Los Increíbles",
+    "director": "Brad Bird",
+    "duration": 115,
+    "available": true
+  },
+  {
+    "title": "El Viaje de Chihiro",
+    "director": "Hayao Miyazaki",
+    "duration": 125,
+    "available": true
+  },
+  {
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "duration": 148,
+    "available": true
+  },
+  {
+    "title": "Jurassic Park",
+    "director": "Steven Spielberg",
+    "duration": 127,
+    "available": true
+  },
+  {
+    "title": "Volver al Futuro",
+    "director": "Robert Zemeckis",
+    "duration": 116,
+    "available": true
+  },
+  {
+    "title": "Gladiator",
+    "director": "Ridley Scott",
+    "duration": 155,
+    "available": true
+  }
+]
